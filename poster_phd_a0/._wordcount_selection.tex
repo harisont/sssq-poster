@@ -1,0 +1,47 @@
+\documentclass{sbposter}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage[inline]{enumitem}
+\setlist{noitemsep} 
+\usepackage{booktabs} % tables
+\usepackage{caption}
+
+
+% Debug
+% \font\nullfont=cmr10
+
+% tikzposter title information
+% For long title:
+\title{\parbox{0.6\linewidth}{Universal Dependencies Meets \\Second Language Acquisition: \\the Case of Swedish}}
+% For short title:
+%\title{Title of your paper}
+\author{Arianna Masciolini}
+\institute{Språkbanken Text, University of Gothenburg, Sweden}
+
+\begin{document}
+\maketitle
+
+% Two column format
+\begin{columns}
+\column{0.5}
+
+\block{UD Treebanks for SLA Research}{
+    Advantages of UD treebanks in corpus-based Second Language Acquisition research:
+    \vskip 0.5em
+    \begin{itemize}
+        \item uniform morphosyntactic annotation layer allowing for qualitative and quantitative \textbf{cross-lingual comparisons}:
+        \begin{itemize}
+            \item between standard and learner language
+            \item between a learner's L1 and L2
+            \item between different L2s
+        \end{itemize}
+            \item possibility to carry out \textbf{grammatical error retrieval and analysis} and \textbf{automatic feedback generation} without explicit error tagging e.g. if learner sentences are paired with corrections (\textbf{\textit{parallel L1-L2 treebank}})
+        \item \textbf{semi-automatic annotation} with the help of the existing UD parsers
+    \end{itemize}
+}
+
+\column{0.5}
+
+\end{columns}
+\end{document}
+
