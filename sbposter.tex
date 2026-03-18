@@ -5,24 +5,28 @@
 \setlist{noitemsep} 
 \usepackage{booktabs} % tables
 \usepackage{caption}
+\usepackage{svg}
 
 % Debug
 % \font\nullfont=cmr10
 
 % tikzposter title information
 % For long title:
-\title{\parbox{0.6\linewidth}{Title of your paper - it can be long and break over several lines}}
+\title{\parbox{0.6\linewidth}{Syntactic Sugar for Syntactic Queries: Sequential Representations for Dependency Queries}}
 % For short title:
 %\title{Title of your paper}
-\author{First Author, Second Author and Possibly More}
-\institute{Språkbanken Text, University of Gothenburg}
+\author{Niklas Deworetzki\textsuperscript{1} and Arianna Masciolini\textsuperscript{2}}
+\institute{    
+\textsuperscript{1}Chalmers University of Technology and University of Gothenburg\\
+\textsuperscript{2}Språkbanken Text, University of Gothenburg
+}
 
 \begin{document}
 \maketitle
 
 % Introduction - full page width
 \block{Abstract}{
-    Abstract or introduction spanning the whole page, that is, not placed in the two columns.
+    TODO: add or rm the whole block.
 }
 
 % Two column format
@@ -71,15 +75,7 @@
 
 % Block - with sub blocks (consisting of a title and indented text)
 \block{A block with sub-blocks}{
-    Each block can contain however many inner blocks.
-
-    \innerblock{An inner block}{
-        This is the first inner block.
-    }
-
-    \innerblock{Another inner block}{
-        This is the second and last inner block.
-    }
+    \includesvg{images/qr}
 }
 
 % Block - without a title

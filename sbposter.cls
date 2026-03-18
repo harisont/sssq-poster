@@ -54,17 +54,17 @@
 \definebackgroundstyle{sb}{
   \draw[inner sep=0pt, line width=0pt] 
   (bottomleft) rectangle (topright);
-  \node[inner sep=0pt] (gu) at   
-  (0.5\paperwidth-20cm,0.5\paperheight-7.2cm)
-      {\includegraphics[width=28cm]{images/sprakbanken_text_gu_en.pdf}};
+  \node[inner sep=0pt] (gu) at
+%  (0.5\paperwidth-20cm,0.5\paperheight-7.2cm)
+%      {\includegraphics[width=28cm]{images/sprakbanken_text_gu_en.pdf}};
 }
 
 \definebackgroundstyle{sbgray}{
   \draw[inner sep=0pt, line width=0pt, fill=backgroundcolor] 
   (bottomleft) rectangle (topright);
-  \node[inner sep=0pt] (gu) at   
-  (0.5\paperwidth-20cm,0.5\paperheight-7.2cm)
-      {\includegraphics[width=28cm]{images/sprakbanken_text_gu_en.pdf}};
+  \node[inner sep=0pt] (gu) at
+%  (0.5\paperwidth-20cm,0.5\paperheight-7.2cm)
+%      {\includegraphics[width=28cm]{images/sprakbanken_text_gu_en.pdf}};
 }
 
 \definetitlestyle{sb}{
@@ -73,7 +73,7 @@ titletotopverticalspace=5cm, titletoblockverticalspace=2cm
 }{}
 
 \renewcommand\TP@maketitle{%
-    \begin{minipage}{0.8\titlewidth}
+    \begin{minipage}{\titlewidth}
         \color{titlefgcolor}
         {\Huge \textbf{\@title} \par}
         \vspace*{2em}
